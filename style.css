@@ -1,13 +1,22 @@
 body {
 	margin: 0;
   font-size: 12px;
+  transform: scale(3); 
+  display: inline-block;
+  text-align: center;
 }
 .browser {
+	width: 300px;
 	height: 500px;
 	border: 1px solid gray;
   float: left;
-  margin: 20px;
+  margin: 550px 330px;
 }
 .browser.selected {
 	border-color: blue;
+}
+/* customization */
+.browser-widget li.file,
+.browser-widget li.directory {
+    width: 60px;
 }
