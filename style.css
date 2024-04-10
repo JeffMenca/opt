@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+  font-size: 12px;
+}
+.browser {
+	height: 500px;
+	border: 1px solid gray;
+  float: left;
+  margin: 20px;
+}
+.browser.selected {
+	border-color: blue;
+}
